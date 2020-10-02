@@ -1,0 +1,10 @@
+<configuration>
+    <dataSource>
+        <property name="driverClass" value="com.mysql.jdbc.Driver" />
+        <property name="jdbcUrl" value="jdbc:mysql://127.0.0.1:3306/ipersistence?characterEncoding=UTF-8" />
+        <property name="username" value="root" />
+        <property name="password" value="root" />
+    </dataSource>
+
+    <mapper resource="UserMapper.xml" />
+</configuration>
